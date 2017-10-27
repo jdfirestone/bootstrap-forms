@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>First Quiz</title>
+</head>
+<body>
+
+ <div class="container">
+ <div class="row">
+ <div class="col-md-8">
+    <h1>University of Florida Quiz</h1>
+
+<p>This quiz is deisgned to test your knowledge of the University of Florida. Think you know the gators better than everyone else? Prove it.</p>
+
+<p>Source:<a href="https://en.wikipedia.org/wiki/University_of_Florida
+">Wikipedia</a></p>
+
+  <form>
+
+<!--Text Entry 1-->
+
+  <fieldset class="form-group">
+    <div class="form-group">
+    <label class="form-control-label" for= "located"> Where was the University of Florida first located? </label>
+    <input class="form-control" type="text" id="located" name="located">
+   </div><!-- form group -->
+
+<!--Text Entry 2-->
+
+  <div class="form-group">
+    <label class="form-control-label" for= "students"> How many students are currently enrolled at the University of Florida? </label> <input class="form-control" type="text" id="students" name="students">
+  </div><!-- form group -->
+ </fieldset>
+
+<!--Text Area-->
+
+  <div class="form-group">
+    <label class="form-control-label" for= "team"> List all of the Gator athletic teams that have won national championships. </label>
+      <textarea class="form-control" name="team"  row="3" id="team"> </textarea>
+ </div><!-- form group -->
+
+<!--Radio-->
+
+ <div class="form-group">
+     <label> Which year was University of Florida founded? </label>
+
+ <div class="form-check">
+   <label class="form-check-label">
+     <input class="form-check-input" type="radio" name:"year" value="1903"> 1903
+   </label>
+ </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+     <input class="form-check-input" type="radio" name:"year" value="1851"> 1851
+   </label>
+ </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+    <input class="form-check-input" type="radio" name:"year" value="1967"> 1967
+   </label>
+ </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+    <input class="form-check-input" type="radio" name:"year" value="1853"> 1853
+   </label>
+ </div><!-- form check -->
+ </div><!-- form group -->
+
+<!--Checkbox-->
+
+ <div class="form-group">
+    <label> Which of these are NOT colleges at University of Florida? </label>
+
+ <div class="form-check">
+   <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" name:"college" value="journalism"> College of Journalism and Communications
+   </label>
+ </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" name:"college" value="construction"> College of Construction
+   </label>
+ </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+     <input class="form-check-input" type="checkbox" name:"college" value="education"> College of Education
+   </label>
+  </div><!-- form check -->
+
+ <div class="form-check">
+   <label class="form-check-label">
+     <input class="form-check-input" type="checkbox" name:"college" value="technology"> College of Technology
+   </label>
+ </div><!-- form check -->
+</div><!-- form group -->
+
+<!--Dropdown-->
+
+  <div class="form-group">
+    <label class="form-control-label" for="president">  Who is the President of University of Florida </label>
+     <select class="form-control" name="presiedent" id="strongest">
+       <option> Choose </option>
+       <option value="fuchs">Kent Fuchs</option>
+       <option value="trump">Donald J. Trump</option>
+       <option value="cook">Tim Cook</option>
+       <option value="bezos">Jeff Bezos</option>
+       <option value="robbins">Jennifer Robbins</option>
+       <option value="perry">Katy Perry</option>
+     </select>
+</div>
+
+<!--Buttons-->
+<fieldset class="form-group">
+<button class="btn btn-success" type="submit" value="submit"> Submit </button>
+<button class="btn btn-danger" type="reset" value="reset"> Start Over </button>
+</fieldset>
+
+  </form>
+</div><!--col-->
+  </div><!--row-->
+</div><!--container-->
+</body>
+</html>
